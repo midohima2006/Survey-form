@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Sport Club Servey</h1>
+    <p id="description">Thank you for taking time to help us<br>improve our platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeholder="Please enter your name" required /></label>
+       <label id="email-label" for="email">E-mail <input id="email" name="email" type="email" placeholder="Please enter your e-mail" required /></label> 
+       <label id="number-label" for="number">Age <input id="number" name="number" type="number" placeholder="Please enter your Age" min="16" max="160" /></label>
+      </fieldset>
+      <fieldset>
+        <label id="dropdown-label" for="dropdown">Current role
+          <select id="dropdown" name="dropdown">
+            <option value="">Select one</option>
+            <option value="1">Student</option>
+            <option value="2">Graduate</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <p>Would you recommend us to a friend?</p>
+        <label class="radio" for="yes"><input id="yes" name="recommend" type="radio" value="1" checked />Yes</label>
+        <label class="radio" for="No"><input id="No" name="recommend" type="radio" value="2" />No</label>
+      </fieldset>
+      <Fieldset>
+        <p>What sport do you play?</p>
+        <label for="football"><input id="football" name="football" type="checkbox" value="1" />Football </label>
+        <label for="swimming"><input id="swimming" name="swimming" type="checkbox" value="2" />Swimming </label>
+        <label for="boxing"><input id="boxing" name="boxing" type="checkbox" value="3" />Boxing </label>
+        <label for="other"><input id="other" name="other" type="checkbox" value="4" />Other </label>
+      </fieldset>
+      <fieldset>
+        <label for="comments">For additional comments:
+          <textarea id="comments" name="comments" rows="3" cols="25">
+          </textarea>
+        </label>
+      </fieldset> 
+      <input id="submit" type="submit" value="submit" />  
+    </form>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  color: rgb(15,25,65);
+  }
+  #description {font-size: 18px;
+  font-family: tahoma;
+  text-align: center;
+  }
+  form {background: url(https://cdn.pixabay.com/photo/2023/12/19/21/52/trees-8458466_640.jpg);
+  color: rgb(230,230,230);
+  padding: 1em 0;
+  }
+  label {display: block;
+  margin: 0.25em;
+  }
+  fieldset {width: 80vw;
+  margin: auto;
+  padding: 0.5em;
+  background-color: rgb(15,25,65);
+  }
+  fieldset {width: 65%;
+  margin: 2px auto;
+  }
+  input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    width: 30%;
+    height: 2em;
+    font-size:1em;
+    color: rgb(230,230,230);
+    background-color: rgb(15,25,65);
+  }
